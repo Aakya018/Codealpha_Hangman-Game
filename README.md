@@ -6,12 +6,8 @@ A text-based Hangman game developed in Python.
 - Tracks correct and incorrect guesses.
 - Displays progress after each guess.
 - Ends the game when the player wins or exhausts their attempts.
-
-## How to Run
-1. Install Python on your system (if not already installed).
-2. Save the code as `hangman_game.py`.
-3. Open a terminal or command prompt.
-4. Run the program using the command: `python hangman_game.py`.
+- user can play again to win game
+- after all level completed users scan play game again
 
 ## Code Explanation
 - **Word Selection**: A random word is chosen from a predefined list.
@@ -19,6 +15,7 @@ A text-based Hangman game developed in Python.
 - **Game Loop**: Runs until the word is guessed or attempts run out.
 - **Feedback**: Displays progress and the result of each guess.
 - **End of Game**: Notifies the user of a win or loss.
+- **levels**:after each win level increased.here guess attempts will be decreased.
 
 ## Sample Output
 Welcome to Hangman!
