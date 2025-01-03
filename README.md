@@ -7,7 +7,7 @@ A text-based Hangman game developed in Python.
 - Displays progress after each guess.
 - Ends the game when the player wins or exhausts their attempts.
 - user can play again to win game
-- after all level completed users scan play game again
+- after all level completed users can play game again
 
 ## Code Explanation
 - **Word Selection**: A random word is chosen from a predefined list.
